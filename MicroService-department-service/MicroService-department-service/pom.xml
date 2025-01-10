@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.chamodi</groupId>
-	<artifactId>MicroService-department-service</artifactId>
+	<artifactId>department-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>MicroService-department-service</name>
 	<description>Micro services practice project for Spring Boot</description>
@@ -55,6 +55,11 @@
 			<groupId>io.zipkin.reporter2</groupId>
 			<artifactId>zipkin-reporter-brave</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-webflux</artifactId>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
